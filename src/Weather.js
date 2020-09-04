@@ -24,7 +24,7 @@ export default function Weather() {
               src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
               alt="sunny"
             ></img>
-            18° C
+            <h1> 18 </h1> <h3> ° C </h3>
           </div>
           <ul>
             <li> Precipitation: 15% </li>

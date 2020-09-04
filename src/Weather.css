@@ -16,9 +16,21 @@ body {
 }
 
 .Weather h1 {
-  font-size: 24px;
+  display: inline-block;
+  font-size: 40px;
   font-weight: 100;
-  line-height: 28px;
+  line-height: 60px;
+  margin-left: 14px;
+  position: relative;
+  top: 8px;
+}
+
+.Weather h3 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 100;
+  position: relative;
+  top: -6px;
 }
 
 .Weather ul {
