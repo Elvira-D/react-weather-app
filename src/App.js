@@ -10,7 +10,7 @@ export default function App() {
 
       <Weather />
 
-      <footer>
+      <footer className="footer">
         Coded by Elvira Di Marco
         <br />
         <a

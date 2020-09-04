@@ -3,8 +3,16 @@ body {
 }
 
 .Weather {
-  border: 1px solid #dadde1;
+  border: 1px solid black;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  margin: 10px auto;
+  max-width: 600px;
+  border-radius: 4px;
+}
+
+.Weather form {
+  margin-bottom: 20px;
 }
 
 .Weather h1 {
