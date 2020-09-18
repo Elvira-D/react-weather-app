@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./WeatherForecast.css";
+import WeatherForecastPreview from "./WeatherForecastPreview";
 
 export default function WeatherForecast(props) {
   const [loaded, setLoaded] = useState(false);
@@ -14,8 +15,14 @@ export default function WeatherForecast(props) {
 
   if (loaded) {
     return (
-      <div className="WeatherForecast">
-        {Math.round(forecast.list[0].main.temp)}°C
+      <div className="WeatherForecast row">
+        <br />
+        <br />
+        <WeatherForecastPreview data={forecast.list[0]} />
+        <WeatherForecastPreview data={forecast.list[1]} />
+        <WeatherForecastPreview data={forecast.list[2]} />
+        <WeatherForecastPreview data={forecast.list[3]} />
+        <WeatherForecastPreview data={forecast.list[4]} />
       </div>
     );
   } else {

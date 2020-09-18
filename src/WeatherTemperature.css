@@ -1,0 +1,7 @@
+.WeatherInfo icon {
+    display: inline;
+}
+
+.WeatherInfo WeatherTemperature {
+    display: inline;
+}
